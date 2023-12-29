@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    height: 100vh;
+
+}
+
+aside{
+    border: 2px solid lightpink;
+    padding-bottom: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+main{
+    border: 2px solid lightgreen;
+    display: flex;
+}
+
+.nav{
+    width: 100%;
+}
+
